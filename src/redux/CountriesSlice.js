@@ -23,3 +23,31 @@ export const getCountriesData = createAsyncThunk('countries/getCountriesData', a
 
     return countries;
 })
+
+const countriesSlice = createSlice({
+  name: 'countries',
+  initialState: [],
+  reducers: {
+    countryDetails: (state, action) =>
+      state.map((country) => {
+        if (country.id === action.payload) {
+          return { ...country, clicked: !country.clicked };
+        }
+        return country;
+      }),
+  },
+
+  extraReducers: {
+    [getCountriesData.pending]: (state, action) => {
+      console.log('fetching');
+    },
+    [getCountriesData.fulfilled]: (state, action) => {
+      console.log('success');
+      return action.payload;
+    },
+  },
+});
+
+export const { countryDetails } = countriesSlice.actions;
+
+export default countriesSlice.reducer;
