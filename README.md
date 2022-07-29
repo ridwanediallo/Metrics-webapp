@@ -11,9 +11,6 @@
 
 ## sneak peeks
 
-![Application screenshot](./src/assets/Screenshot-desk.png)
-
-
 ![Application screenshot](./src/assets/Screenshot-mod-details.png)  || ![Application screenshot](./src/assets/Screenshot-mod-home.png)
 
 
@@ -30,9 +27,8 @@ To get a local copy up and running follow these simple exampl
 
 #### Capston project video
 
-[Video Link](https://youtu.be/_oDtvPwq8io)
+[Video Link](https://youtu.be/hlgSshbPnzo)
 
-### **Option 2**
 
 #### Set up your own copy locally
 
