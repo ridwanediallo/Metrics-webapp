@@ -32,8 +32,8 @@ To get a local copy up and running follow these simple exampl
 
 #### Set up your own copy locally
 
-- Clone [the GitHub Repository](https://github.com/ridwanediallo/The-Countries.git)
-- Go to the Project `cd "The-Countries"`
+- Clone [the GitHub Repository](https://github.com/ridwanediallo/Metrics-webapp.git)
+- Go to the Project `cd "Metric-webapp"`
 - Run `npm install` to install the _dependencies_
 - Run `npm start` to run the live server.
 - Run `npm test` to run the tests
